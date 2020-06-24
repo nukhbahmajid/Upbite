@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+
+    <RelativeLayout
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/searchQuery"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/white">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/searchQuery"
+            android:contextClickable="true"
+            android:src="@drawable/ic_search"></ImageView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerHome"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="675dp"
+            android:layout_marginTop="60dp"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

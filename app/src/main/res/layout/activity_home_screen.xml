@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:context=".HomeScreen">
+
+    <!--Let's see if we're gonna need the scroll mode for fl wrapper-->
+
+
+    <FrameLayout
+        android:id="@+id/fl_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="675dp"
+        android:layout_marginBottom="56dp"
+        android:overScrollMode="ifContentScrolls" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@android:color/black"
+        android:layout_above="@+id/fl_wrapper"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/nav_menu"/>
+
+
+</RelativeLayout>
