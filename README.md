@@ -12,6 +12,7 @@ Upbite provides the user with multiple features such as browsing restaurants or 
   - Messages that can be sent to registered users on Upbite - these conversations are stored uniquely for each user in the Firebase Storage. 
   
 <p align="center">
+  <img src="UI/01splashScreen.png" width="256" height="495">
   <img src="UI/02SignUp.png" width="256" height="495">
   <img src="UI/03Home.png" width="256" height="495">
   <img src="UI/04Favorites.png" width="256" height="495">
