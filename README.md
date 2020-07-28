@@ -25,6 +25,35 @@ Upbite provides the user with multiple features such as browsing restaurants or 
 
 ## Repository Structure
 
+```
+├── README.md                                 : ReadMe description of the project
+│
+└── ShoppingList/app                          : Project files
+    ├── src/main                    
+    │   ├── java/.../shoppinglist       
+    │   │   ├── touch                         : Touch helper callback component classes - allows drag and drop reordering message/favorite items and swipe to delete
+    │   │   ├── fragments                     : Contains all the Fragment that are used to replace stand-in Fragment in HomeActivity, includes MessagesFragment etc.
+    │   │   ├── data                          : Contains Data classes for multiple attributes of the app e.g. UserItem, ChatMessageItems, YelpSearchResult
+    │   │   ├── network                       : Yelp API Interface that serves as intermediate for the Yelp API and makes calls via Retrofit when prompted
+    │   │   ├── HomeScreen.kt                 : Dialog fragment for adding and editing items
+    │   │   ├── LoginActivity.kt              : User login screen for exdisting users
+    |   |   ├── RegisterActivity.kt           : Register/Sign up screen for new users.
+    │   │   └── SplashScreenActivity.kt       : Splash screen activity - Upbite logo splash
+    │   │
+    │   ├── res                               : Companion resource files for the project
+    │   │   ├── anim                          : Animation xml file for the splash screen
+    │   │   ├── drawable                      : XML files for icons/images etc.
+    │   │   ├── layout                        : XML layout files for activities
+    │   │   ├── mipmap-...                    : Launcher icon versions for different screen densities
+    │   │   └── values                        : XML files for extracted strings and customized styles
+    │   │
+    │   └── AndroidManifest.xml               : manifest file for the application
+    │
+    └── build.gradle                          : gradle file for the app module
+      
+
+```
+
 ## Future Improvements 
 
 The app is an ongoing project and is currently under development. The favorites and location specifying features for search results are currently incomplete and are edxpected to be launched with next version. 
