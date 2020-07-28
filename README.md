@@ -15,7 +15,6 @@ Upbite provides the user with multiple features such as browsing restaurants or 
   <img src="UI/01splashScreen.png" width="256" height="495">
   <img src="UI/02SignUp.png" width="256" height="495">
   <img src="UI/03Home.png" width="256" height="495">
-  <img src="UI/04Favorites.png" width="256" height="495">
 </p>
 
 <p align="center">
@@ -24,5 +23,13 @@ Upbite provides the user with multiple features such as browsing restaurants or 
   <img src="UI/07Account.png" width="256" height="495">
 </p>
 
+## Repository Structure
 
+## Future Improvements 
+
+The app is an ongoing project and is currently under development. The favorites and location specifying features for search results are currently incomplete and are edxpected to be launched with next version. 
+
+### Contributors
+
+Nukhbah Majid - sole contributor.
 
