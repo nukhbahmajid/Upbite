@@ -56,7 +56,7 @@ Upbite provides the user with multiple features such as browsing restaurants or 
 
 ## Future Improvements 
 
-The app is an ongoing project and is currently under development. The favorites and location specifying features for search results are currently incomplete and are edxpected to be launched with next version. 
+The app is an ongoing project and is currently under development. The favorites and location specifying features for search results are currently incomplete and are expected to be launched with next version. 
 
 ### Contributors
 
